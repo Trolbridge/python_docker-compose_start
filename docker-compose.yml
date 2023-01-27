@@ -8,6 +8,7 @@ services:
     working_dir: /code
     tty: true
     command: "/bin/bash"
+    container_name: app
 
     # First start the container
     # docker-compose up -d
