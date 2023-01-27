@@ -15,6 +15,7 @@ print(sum_numbers(10, 5))
 print(sum_numbers(10, 5))
 print("It works!")
 print("It works!")
+print("It works!")
 
-# print(sum_numbers(10.3, 5))
-# print(sum_numbers('Bob', 'Mark'))
+# Use double quotes \"
+# escape characters: \, \n, \t, \r, \b, \f, \v, \0, \00, \01, \02, \0, \03, \0, \\, \', ,\", 
