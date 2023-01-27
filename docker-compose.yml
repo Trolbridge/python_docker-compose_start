@@ -3,3 +3,14 @@ services:
   app:
     build:
       dockerfile: ./python/Dockerfile
+    volumes:
+      - ./src:/code
+    working_dir: /code
+    tty: true
+    command: "/bin/bash"
+
+    # First start the container
+    # docker-compose up -d
+
+    # EDit file then run the python script
+    # docker-compose exec app bash -c "python3 main.py"
