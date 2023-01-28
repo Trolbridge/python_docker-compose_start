@@ -1,5 +1,4 @@
 import subprocess
-subprocess.run(["clear"])
 
 # FUNCTIONS
 def clear():
