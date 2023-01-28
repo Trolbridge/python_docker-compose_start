@@ -2,7 +2,7 @@ version: "3"
 services:
   app:
     build:
-      dockerfile: ./python/Dockerfile
+      dockerfile: ./python-dockerfile/Dockerfile
     volumes:
       - ./src:/code
     working_dir: /code
