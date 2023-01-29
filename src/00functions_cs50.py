@@ -31,9 +31,10 @@ print_menu()
 
 # name: str = input("what name? ")
 # print('hi', name, end='')
+# https://docs.python.org/3/library/string.html#formatspec
 # print(f'hi {name} ', ) # format string
 # print(int(input("x?")) + int(input("y?")))
-print(f"{int(input('x?')):,}") # add commas to big numbers with format string
+print(f"{int(input('x?')):,.2f}") # add commas to big numbers with format string
 
 
 # string methods
