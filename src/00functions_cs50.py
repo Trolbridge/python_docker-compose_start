@@ -30,8 +30,10 @@ print_menu()
 
 
 name: str = input("what name? ")
-print('hi', name, end='')
-print(f'hi {name} ', )
+# print('hi', name, end='')
+print(f'hi {name} ', ) # format string
+print(int(input("x?")) + int(input("y?")))
+
 
 # string methods
 # https://docs.python.org/3/library/stdtypes.html#string-methods
