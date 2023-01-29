@@ -29,10 +29,11 @@ print_menu()
 
 
 
-name: str = input("what name? ")
+# name: str = input("what name? ")
 # print('hi', name, end='')
-print(f'hi {name} ', ) # format string
-print(int(input("x?")) + int(input("y?")))
+# print(f'hi {name} ', ) # format string
+# print(int(input("x?")) + int(input("y?")))
+print(f"{int(input('x?')):,}") # add commas to big numbers with format string
 
 
 # string methods
